@@ -1,0 +1,9 @@
+.content-container {
+  max-width: 100%;
+  position: relative;
+  flex-shrink: 1;
+}
+
+.content-container--blur {
+  opacity: 0.4;
+}

@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/Elijah-stone/WebCore.git"
   },
-  
+
   "keywords": [
     "js",
     "webpack"

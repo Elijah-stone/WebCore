@@ -1,0 +1,19 @@
+.request-check{
+  &__desktop-btn {
+    display: none;
+  }
+  @media (min-width: 1120px) {
+    &__desktop-btn {
+      display: block;
+      height: 4rem;
+      background-color: transparent;
+      border: none;
+      background-repeat: no-repeat;
+      background-position: right;
+      text-align: left;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 500;
+    }
+  }
+}

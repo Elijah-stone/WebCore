@@ -1,0 +1,17 @@
+@import "~normalize.css";
+@import "font.css";
+html {
+    font-family: "TT Lakes",sans-serif;
+    font-size: 10px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+ul {
+    padding: 0;
+    list-style: none;
+}
+p {
+    margin: 0;
+}

@@ -1,0 +1,43 @@
+.side-menu-bottom {
+
+  &__btn-panel {
+    display: flex;
+    margin-bottom: 16px;
+  }
+
+  &__call {
+    background-image: url("../img/call.svg");
+  }
+  &__message {
+    background-image: url("../img/chat.svg");
+    margin-left: 16px;
+  }
+  &__profile {
+    background-image: url("../img/profile.svg");
+    margin-left: 16px;
+  }
+  &__email {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin-bottom: 16px;
+  }
+  &__phone-number {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+    margin-bottom: 40px;
+  }
+  &__change-lang button {
+    border: none;
+    background: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+  &__ru_active {
+    color: #7E7E82;
+  }
+}

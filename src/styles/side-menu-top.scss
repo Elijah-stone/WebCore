@@ -1,0 +1,20 @@
+.side-menu-top {
+  display: flex;
+  align-items: center;
+
+  &__exit-btn {
+    display: none;
+    background-image: url("../img/burger-cancel.svg");
+    margin-left: 24px;
+    &--enable {
+      display: block;
+    }
+  }
+  &__header-logo {
+    margin-left: 16px;
+  }
+  &__search-btn {
+    background-image: url("../img/search.svg");
+    margin-left: 78px;
+  }
+}

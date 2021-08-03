@@ -1,0 +1,34 @@
+.side-menu {
+  display: none;
+  flex-shrink: 0;
+  width: 306px;
+  height: 1024px;
+  background-color: #fff;
+  box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02),
+  16px 0 52px rgba(14, 24, 80, 0.2);
+
+  &__menu-top {
+    padding-top: 19px;
+    margin-bottom: 14px;
+  }
+
+  &__menu-bottom {
+    margin-top: 268px;
+    margin-left: 24px;
+  }
+
+
+  @media (min-width: 1440px) {
+
+      display: block;
+
+  }
+
+}
+
+.side-menu--open {
+  width: 320px;
+  display: block;
+  position: absolute;
+  z-index: 1;
+}

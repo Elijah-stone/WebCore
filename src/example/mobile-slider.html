@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+
+  <link rel="stylesheet" href="./package/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./font/font.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/mobile-slider.css">
+
+
+  <!-- Demo styles -->
+ <!-- <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      width: 80px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide:nth-child(2n) {
+      width: 60px;
+    }
+
+    .swiper-slide:nth-child(3n) {
+      width: 40px;
+    }
+  </style> -->
+</head>
+
+<body>
+
+<div class="brands">
+  <div class="brands--header">
+    <h3>
+      Ремонт техники различных брендов
+    </h3>
+  </div>
+
+<div class="brands--cont-with-btn">
+
+  <div class="brands--container">
+    <div class="slide brand-slide">
+      <img src="./img/1.5/lenovo.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+    <div class="slide brand-slide">
+      <img src="./img/1.5/sasung.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+    <div class="slide brand-slide">
+      <img src="./img/1.5/apple.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+    <div class="slide brand-slide">
+      <img src="./img/1.5/acer.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+    <div class="slide brand-slide">
+      <img src="./img/1.5/borsh.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+    <div class="slide brand-slide">
+      <img src="./img/1.5/hp.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+    <div class="slide brand-slide">
+      <img src="./img/1.5/viewsonic.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+    <div class="slide brand-slide">
+      <img src="./img/1.5/sony.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+    <div class="slide brand-slide">
+      <img src="./img/1.5/sony.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+    <div class="slide brand-slide">
+      <img src="./img/1.5/sasung.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+    <div class="slide brand-slide">
+      <img src="./img/1.5/apple.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+    <div class="slide brand-slide">
+      <img src="./img/1.5/acer.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+    <div class="slide brand-slide">
+      <img src="./img/1.5/borsh.png" alt="">
+      <a href="" class="slide--link"></a>
+    </div>
+  </div>
+  <button class="brands--all brands--btn"><span class="arrow-icon"></span><span>Показать все</span></button>
+  <button class="brands--hide brands--btn hide"><span class="arrow-icon"></span><span>Скрыть</span></button>
+
+
+
+</div>
+
+
+
+
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide">
+        <img src="./img/1.5/lenovo.png" alt="">
+        <a href="" class="slide--link"></a>
+      </div>
+      <div class="swiper-slide slide">
+        <img src="./img/1.5/sasung.png" alt="">
+        <a href="" class="slide--link"></a>
+      </div>
+      <div class="swiper-slide slide">
+        <img src="./img/1.5/apple.png" alt="">
+        <a href="" class="slide--link"></a>
+      </div>
+      <div class="swiper-slide slide">
+        <img src="./img/1.5/acer.png" alt="">
+        <a href="" class="slide--link"></a>
+      </div>
+      <div class="swiper-slide slide">
+        <img src="./img/1.5/borsh.png" alt="">
+        <a href="" class="slide--link"></a>
+      </div>
+      <div class="swiper-slide slide">
+        <img src="./img/1.5/hp.png" alt="">
+        <a href="" class="slide--link"></a>
+      </div>
+      <div class="swiper-slide slide">
+        <img src="./img/1.5/viewsonic.png" alt="">
+        <a href="" class="slide--link"></a>
+      </div>
+      <div class="swiper-slide slide">
+        <img src="./img/1.5/sony.png" alt="">
+        <a href="" class="slide--link"></a>
+      </div>
+      <div class="swiper-slide slide">
+        <img src="./img/1.5/lenovo.png" alt="">
+        <a href="" class="slide--link"></a>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+
+<!-- Swiper -->
+
+
+<!-- Swiper JS -->
+<script src="./package/swiper-bundle.min.js"></script>
+<script src="mobile-slider_script.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+
+
+      let swiper = new Swiper('.swiper-container', {
+        slidesPerView: 'auto',
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+
+
+
+</script>
+</body>
+
+</html>

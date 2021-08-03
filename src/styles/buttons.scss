@@ -1,0 +1,53 @@
+.header-button {
+  width: 4rem;
+  height: 4rem;
+  background-color: transparent;
+  border: none;
+}
+.menu__button {
+  background-image: url("../img/burger.svg");
+  margin-right: 1.6rem;
+}
+.call__button {
+  background-image: url("../img/call.svg");
+  margin-right: 1.6rem;
+  display: none;
+}
+.message__button {
+  background-image: url("../img/chat.svg");
+  margin-right: 1.6rem;
+  display: none;
+}
+.profile__button {
+  background-image: url("../img/profile.svg");
+  margin-right: 2rem;
+  display: none;
+}
+.request__button {
+  background-image: url("../img/repair.svg");
+  margin-right: 1.6rem;
+}
+.check__button {
+  background-image: url("../img/checkstatus.svg");
+}
+
+@media (min-width: 768px) {
+  .call__button {
+    display: block;
+  }
+  .message__button {
+    display: block;
+  }
+  .profile__button {
+    display: block;
+  }
+}
+@media (min-width: 1120px) {
+  .request__button {
+    width: 185px;
+  }
+
+  .check__button {
+    width: 180px;
+  }
+}

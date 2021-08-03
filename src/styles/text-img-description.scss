@@ -1,0 +1,90 @@
+.text-img-description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 24px 16px 16px 16px;
+
+  &__description {
+
+    height: 90px;
+    overflow: hidden;
+
+  }
+
+  &__description p {
+
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+  }
+  &__button {
+    display: block;
+    position: relative;
+    margin: 16px;
+    border: none;
+    background-color: transparent;
+    &--remove {
+      display: none;
+    }
+  }
+  &__button span {
+    margin-left: 20px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    color: #1B1C21;
+  }
+  &__button span::before {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 25%;
+    width: 8px;
+    height: 11px;
+    background-image: url("../img/arrows.svg");
+  }
+  &__img {
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    margin-left: 2.4rem;
+    &__description {
+      height: 160px;
+    }
+    &__description p {
+      line-height: 2rem;
+    }
+    &__img {
+      width: 360px;
+      border-radius: 6px;
+      margin-left: 48px;
+    }
+  }
+
+  @media (min-width: 1120px) {
+    margin-right: 28px;
+    &__img {
+      width: 530px;
+      border-radius: 6px;
+      margin-left: 36px;
+    }
+  }
+  &__description--all {
+    height: 500px;
+    overflow: auto;
+    @media (min-width: 768px) {
+      height: 400px;
+    }
+    @media (min-width: 1120px) {
+      height: 300px;
+    }
+  }
+}
+
+.disable {
+  display: none;
+}

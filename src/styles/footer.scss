@@ -1,0 +1,26 @@
+footer {
+
+  padding: 60px 16px 16px 16px;
+  background-color: #F8F8F8;
+
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 16px;
+
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+    color: #7E7E82;
+
+    @media (min-width: 768px) {
+      display: inline-block;
+      width: 220px ;
+    }
+  }
+}

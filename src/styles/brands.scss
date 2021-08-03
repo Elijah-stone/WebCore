@@ -1,0 +1,52 @@
+.brands {
+
+
+  &--header {
+    width: 100%;
+    height: 80px;
+    padding: 16px;
+    box-sizing: border-box;
+    background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+    margin-bottom: 16px;
+  }
+  &--header h3 {
+    font-family: TT Lakes , sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    color: #7E7E82;
+  }
+  &--cont-with-btn {
+    display: none;
+  }
+  &--container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &--btn {
+    border: none;
+    background-color: transparent ;
+    position: relative;
+    padding: 1px;
+    margin-left: 40px;
+  }
+  &--btn span {
+    margin-left: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+  }
+  @media (min-width: 768px) {
+    &--cont-with-btn {
+      display: block;
+    }
+  }
+  &__hide {
+    display: none;
+  }
+}
