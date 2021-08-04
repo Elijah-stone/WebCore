@@ -2,7 +2,7 @@
 
   &__header {
     width: 100%;
-    height: 80px;
+    height: auto;
     padding: 16px;
     box-sizing: border-box;
     background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
@@ -10,6 +10,7 @@
 
     & h3 {
       padding-right: 15px;
+      height: auto;
       font-family: TT Lakes , sans-serif;
       font-size: 16px;
       line-height: 24px;
@@ -22,7 +23,12 @@
 
   }
 
-
+  &__cont-with-btn {
+    display: none;
+    @media (min-width: 768px) {
+      display: block;
+    }
+  }
 
   &__container {
     display: none;

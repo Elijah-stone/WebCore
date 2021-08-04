@@ -78,10 +78,10 @@
                 <button class="header-button side-menu-bottom__message"></button>
                 <button class="header-button side-menu-bottom__profile"></button>
             </div>
-            <p class="side-menu-bottom__email">mail@cps.com</p>
-            <p class="side-menu-bottom__phone-number">8 800 890 8900</p>
+            <a class="side-menu-bottom__email">mail@cps.com</a><br>
+            <a class="side-menu-bottom__phone-number">8 800 890 8900</a>
             <div class="side-menu-bottom__change-lang">
-                <button class="side-menu-bottom__ru side-menu-bottom__ru_active">RU</button>
+                <button class="side-menu-bottom__ru side-menu-bottom_active">RU</button>
                 <button class="side-menu-bottom__en">EN</button>
                 <button class="side-menu-bottom__ch">CH</button>
             </div>
@@ -163,12 +163,14 @@
             <div class="text-img-description">
                 <div class="text-img-description__text">
                     <div class="text-img-description__description">
-
                         <p class="content-1">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
                             <br><br> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam assumenda cum debitis, dicta, dignissimos dolor dolorem doloremque eius error eveniet illo incidunt inventore maxime minus mollitia natus obcaecati officia officiis quaerat quam repellat saepe veritatis voluptate voluptatibus.</p>
                     </div>
-                    <button class="text-img-description__button">
-                        <span>Читать далее</span>
+                    <button class="text-img-description__button text-img-description__button--open">
+                        <span class="text-img-description__arrow-icon"></span><span class="text-img-description__button-text">Читать далее</span>
+                    </button>
+                    <button class="text-img-description__button text-img-description__button--remove text-img-description__button--close">
+                        <span class="text-img-description__arrow-icon text-img-description__arrow-icon--flipped"></span><span class="text-img-description__button-text">Скрыть текст</span>
                     </button>
                 </div>
                 <img class="text-img-description__img" src="img/cps.png" alt="cps">

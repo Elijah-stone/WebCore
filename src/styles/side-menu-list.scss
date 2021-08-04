@@ -7,7 +7,12 @@
   }
 
   &__item a {
+    display: table-cell;
+
+
     font-size: 16px;
+
+    vertical-align: middle;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -18,9 +23,9 @@
     content: "";
     position: absolute;
     left: 0;
-    top: 118px;
+
     width: 4px;
-    height: 32px;
+    height: 28px;
     background: #41F6D7;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
